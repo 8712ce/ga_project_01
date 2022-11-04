@@ -177,22 +177,33 @@ a:hover {
 }
 #modal-textbox {
   background-color: white;
-  height: 550px;
-  width: 550px;
+  height: 400px;
+  width: 350px;
   border-radius: 2px;
   margin: 150px auto;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
   padding: 2%;
   line-height: 120%;
   font-family: 'Arial';
+  border-radius: 1em;
 }
-/* #modal-footer {
-  text-align: right;
-} */
+
+#openModal {
+  margin-bottom: 1em;
+}
+
 .modal-buttons {
   color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
+}
+
+#bjorn {
+  /* object-fit: contain; */
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #838383;
+  border-radius: 10em;
 }
 

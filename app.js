@@ -1,5 +1,5 @@
 const pages = document.getElementsByTagName("section")
-const navButtons = document.getElementsByTagName("button")
+const navButtons = document.querySelectorAll(".navigation")
 console.log("hello")
 
 function onClickHandle(event) {
