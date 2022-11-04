@@ -70,5 +70,4 @@ const closeModal = () => {
 
 //Event Listeners
 openBtn.addEventListener('click', openModal)
-
 close.addEventListener('click', closeModal)

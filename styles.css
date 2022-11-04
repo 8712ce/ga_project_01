@@ -31,7 +31,7 @@ body {
     max-width:100%;
     max-height:100%;
     float: right;
-    margin: 0em 0em 0em 1em;
+    margin: 0em 0em 0.5em 1em;
 }
 
 .background {
@@ -50,6 +50,7 @@ body {
     background-color: inherit;
     color: #383838;
     cursor: pointer;
+    margin-bottom: 1em;
 }
 
 nav {
@@ -60,10 +61,16 @@ nav {
     margin-bottom: 0.5em;
 }
 
-/* .slideshow {
-    width: 100%;
-    margin: 1em 0em;
-} */
+.resume {
+  text-align: center;
+  margin-bottom: 0.25em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 footer {
     display: flex;
@@ -154,9 +161,7 @@ a:hover {
 /* EDITED CODE FROM W3SCHOOLS ENDS HERE */
 
 
-.resume {
-  text-align: center;
-}
+
 
 #modal {
   background-color: rgba(0, 0, 0, 0.4);
