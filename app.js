@@ -1,9 +1,7 @@
 const pages = document.getElementsByTagName("section")
 const navButtons = document.querySelectorAll(".navigation")
-console.log("hello")
 
 function onClickHandle(event) {
-    // console.log(event)
     const pageId = event.target.innerText.toLowerCase().replaceAll(' ', '_')
 
     // loop over all the pages
