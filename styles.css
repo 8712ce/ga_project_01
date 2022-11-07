@@ -62,9 +62,13 @@ nav {
     margin-bottom: 0.5em;
 }
 
+.home {
+  display: none;
+}
+
 .resume {
   text-align: center;
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5em;
 }
 
 ul {
