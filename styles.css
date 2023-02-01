@@ -38,6 +38,14 @@ body {
     margin-bottom: 2em;
 }
 
+.resume_text {
+  text-align: justify;
+  color: #808080;
+  margin: auto;
+  line-height: 150%;
+  margin-bottom: 4em;
+}
+
 @media screen and (min-width: 901px) {
   .project_title {
     margin-bottom: 0.5em;
