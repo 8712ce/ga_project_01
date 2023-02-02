@@ -39,7 +39,7 @@ body {
 }
 
 .resume_text {
-  text-align: justify;
+  text-align: center;
   color: #808080;
   margin: auto;
   line-height: 150%;
@@ -243,7 +243,8 @@ a:visited {
   }
 
 a:hover {
-    color: hotpink;
+    /* color: hotpink; */
+    color: #fa9a82;
   }
 
 
