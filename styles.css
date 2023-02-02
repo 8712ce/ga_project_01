@@ -28,6 +28,7 @@ body {
     padding: 2em;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .main_text {
@@ -324,34 +325,47 @@ a:hover {
   overflow: auto;
   display: none;
 }
+
 #modal-textbox {
   background-color: white;
-  height: 400px;
-  width: 350px;
+  height: 350px;
+  width: 300px;
   margin: 150px auto;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
-  padding: 2%;
-  line-height: 120%;
+  padding-top: 2.5em;
+  /* line-height: 120%; */
   font-family: 'Arial';
   border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #openModal {
   margin-bottom: 1em;
+  width: 150px;
 }
 
-.modal-buttons {
+/* .modal-buttons {
   color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
-}
+} */
 
 #bjorn {
   /* object-fit: contain; */
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-bottom: 2em;
+  height: 200px;
+  width: 200px;
   border: 1px solid #838383;
   border-radius: 10em;
+}
+
+#close {
+  width: 150px;
+  margin-bottom: 2em;
 }
 
